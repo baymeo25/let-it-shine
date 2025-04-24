@@ -10,19 +10,26 @@
 <body class="bg-white text-gray-800 font-sans">
 
   <!-- Row 1: Header -->
-  <section class="bg-yellow-100 py-12">
-    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6">
-      <div class="md:w-1/2 text-center md:text-left mb-6 md:mb-0">
-        <h1 class="text-4xl font-bold text-yellow-700">Let It Shine Cleaning Services</h1>
-      </div>
-      <div class="md:w-1/2">
-        <!-- Hero Image Section (Responsive, No Text Overlay) -->
-        <div class="w-full h-64 md:h-80 mb-4">
-          <img src="Hero1.jpeg" alt="Cleaning Service Hero Image" class="w-full h-full object-cover rounded-lg">
-        </div>
+<section class="bg-yellow-100 py-12 relative">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6">
+    <!-- Logo in the Top Left -->
+    <div class="absolute top-6 left-6">
+      <img src="logo.png" alt="Let It Shine Cleaning Services Logo" class="h-16 rounded-lg shadow-lg">
+    </div>
+
+    <!-- Header Content -->
+    <div class="md:w-1/2 text-center md:text-left mb-6 md:mb-0">
+      <h1 class="text-4xl font-bold text-yellow-700 pl-24 md:pl-32">Let It Shine Cleaning Services</h1>
+    </div>
+
+    <!-- Hero Image Section (Responsive, No Text Overlay) -->
+    <div class="md:w-1/2">
+      <div class="w-full h-64 md:h-80 mb-4">
+        <img src="Hero1.jpeg" alt="Cleaning Service Hero Image" class="w-full h-full object-cover rounded-lg">
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Row 2: About Us -->
   <section class="py-12 bg-white">
